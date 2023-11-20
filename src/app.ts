@@ -13,6 +13,8 @@ import routes from './routes/v1';
 import { errorConverter, errorHandler } from './middlewares/error';
 import ApiError from './utils/ApiError';
 
+const x = 'hello';
+
 const app = express();
 
 if (config.env !== 'test') {
